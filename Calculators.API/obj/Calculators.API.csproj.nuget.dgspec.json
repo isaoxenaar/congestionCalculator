@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/isa/Desktop/Salt/VolvoTest/CongestionCalculator_IOxenaar/Calculators.API/Calculators.API.csproj": {}
+  },
+  "projects": {
+    "/home/isa/Desktop/Salt/VolvoTest/CongestionCalculator_IOxenaar/Calculators.API/Calculators.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isa/Desktop/Salt/VolvoTest/CongestionCalculator_IOxenaar/Calculators.API/Calculators.API.csproj",
+        "projectName": "Calculators.API",
+        "projectPath": "/home/isa/Desktop/Salt/VolvoTest/CongestionCalculator_IOxenaar/Calculators.API/Calculators.API.csproj",
+        "packagesPath": "/home/isa/.nuget/packages/",
+        "outputPath": "/home/isa/Desktop/Salt/VolvoTest/CongestionCalculator_IOxenaar/Calculators.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/162/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
